@@ -5,10 +5,11 @@ interface ColumnProps {
     text: string
 }
 
-function Column({ text }:ColumnProps) {
+function Column({ text, children }: React.PropsWithChildren<ColumnProps>) {
     return (
         <ColumnContainer>
             <ColumnTitle>{text}</ColumnTitle>
+            {children}
         </ColumnContainer>
     )
 }
