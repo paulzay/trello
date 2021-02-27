@@ -4,8 +4,8 @@
 
 ## Built with
 
-- Reactjs
-- Typescript
+- React.js
+- TypeScript
 
 ## Getting Started
 
